@@ -1,7 +1,4 @@
 import time
-
-
-
 def menu ():
     opcion = input('''
 ╔════════════════════════╗
@@ -16,10 +13,6 @@ def menu ():
 
 Seleccione algunas de las opciones: ''')
     return opcion
-
-
-
-
 
 while True:
     opc = menu()
